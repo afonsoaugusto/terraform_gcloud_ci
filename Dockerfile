@@ -10,6 +10,7 @@ RUN adduser ci && \
     yum install unzip -y && \
     yum install wget -y && \
     yum install ruby -y && \
+    yum install git -y && \
     yum clean all
 
 RUN wget https://releases.hashicorp.com/terraform/${TERRAFORM_VERSION}/terraform_${TERRAFORM_VERSION}_linux_amd64.zip && \

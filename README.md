@@ -7,3 +7,4 @@
 * terraform binary 0.12.3
 * gcloud sdk 258.0.0
 * ruby 2
+* git
